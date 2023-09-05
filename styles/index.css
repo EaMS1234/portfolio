@@ -117,3 +117,15 @@ footer {
 
     margin: 16px;
 }
+
+#links-container {
+    text-align: center;
+    /* Center the content horizontally */
+}
+
+#links-container a {
+    display: inline-block;
+    /* Make the links inline-block elements */
+    margin: 0 10px;
+    /* Add some horizontal margin to separate the links */
+}
