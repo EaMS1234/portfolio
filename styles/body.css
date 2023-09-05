@@ -1,0 +1,36 @@
+body {
+    /* Font */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+
+    /* Layout */
+    text-align: center;
+    margin: auto;
+
+    /* Background */
+    background-image: url("../assets/second_world_by_eams1234_dcicneh.png");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2px);
+}
+
+footer {
+    padding: 32px;
+}
+
+.solid-background {
+    /* Box appearence */
+    color: black;
+    text-shadow: 0px 0px 0px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 50%);
+
+    /* Layout */
+    padding: 16px;
+}
+
+.blank-background {
+    /* Layout */
+    padding: 16px;
+}

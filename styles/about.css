@@ -1,0 +1,31 @@
+#about-container {
+    display: inline-grid;
+}
+
+#about {
+    /* Layout */
+    position: relative;
+    top: 64px;
+    text-align: justify;
+    margin: 16px;
+
+    /* Grid */
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+}
+
+#profile-picture {
+    /* Appearence */
+    height: 256px;
+    width: 256px;
+    border-radius: 128px;
+
+    /* Grid */
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    margin: 16px;
+}
