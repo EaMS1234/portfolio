@@ -78,7 +78,8 @@
         <h2>Projects</h2>
 
         <div id="project-container">
-            <div class="card" id="game-of-life">
+            <div class="card" id="game-of-life" onmouseenter="enter(`game-of-life`)"
+                onmouseleave="leaves(`game-of-life`)">
                 <h3><a href="https://eams1234.github.io/game-of-life/">game-of-life</a></h3>
 
                 <img src="assets/thumbnails/game-of-life-thumbnail.png" alt="">
@@ -88,7 +89,7 @@
                 </p>
             </div>
 
-            <div class="card" id="pa-pre-fu">
+            <div class="card" id="pa-pre-fu" onmouseenter="enter(`pa-pre-fu`)" onmouseleave="leaves(`pa-pre-fu`)">
                 <h3><a href="https://eams1234.itch.io/thumbnails/pa-pre-fu">PA PRE FU</a></h3>
 
                 <img src="assets/pa-pre-fu-thumbnail.png" alt="">
@@ -98,7 +99,7 @@
                 </p>
             </div>
 
-            <div class="card" id="repos">
+            <div class="card" id="repos" onmouseenter="enter(`repos`)" onmouseleave="leaves(`repos`)">
                 <h3><a href="https://github.com/EaMS1234?tab=repositories">Check my other projects</a></h3>
 
                 <img src="assets/thumbnails/repos-thumbnail.png" alt="">
@@ -132,5 +133,7 @@
         <a href="https://github.com/EaMS1234/portfolio">View source code</a>
     </footer>
 </body>
+
+<script src="scripts/index.js"></script>
 
 </html>
